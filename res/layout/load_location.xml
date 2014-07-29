@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+		<!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="LOAD"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+		<!--  Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+		<!--  Name TextField -->
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+		<!--  location Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="location" />
+		<!--  location TextField -->
+        <!--  <EditText
+            android:id="@+id/locationX"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="x coordinate"
+             />
+        <EditText
+            android:id="@+id/locationY"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="y coordinate"
+             />
+        -->
+        
+        <TextView
+            android:id="@+id/location_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Here I am"
+            android:textStyle="bold"
+            />
+       <!--  Error message -->
+        <TextView android:id="@+id/load_error_msg"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:textColor="#e30000"
+            		android:padding="10dip"
+            		android:textStyle="bold"/>
+
+		<!--  Load Button -->        
+        <Button
+            android:id="@+id/btnGetLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Get Location" />
+        
+		<!--  Load Button -->        
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Load" />
+
+        <!--  Link to Welcomepage -->
+        <Button
+            android:id="@+id/btnLinkToWelcomeScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="back to Welcome Screen"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

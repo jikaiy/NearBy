@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dip"
+        android:text="WELCOME TO NEARBY"
+        android:textColor="#21dbd4"
+        android:textSize="25dip"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLinkToSearchPeers"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnLinkToQuery"
+        android:layout_alignRight="@+id/btnLinkToQuery"
+        android:layout_below="@+id/btnLinkToQuery"
+        android:layout_marginTop="40dp"
+        android:text="Search Peers" />
+
+    <Button
+        android:id="@+id/btnLinkToLoad"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Load Your Location" />
+
+    <Button
+        android:id="@+id/btnLinkToQuery"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnLinkToLoad"
+        android:layout_alignRight="@+id/btnLinkToLoad"
+        android:layout_below="@+id/btnLinkToLoad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Look Your Friends" />
+
+</RelativeLayout>
