@@ -1,7 +1,7 @@
 NearBy
 ======
 
-An android mobile application involved with Location Based Service and Wi-Fi Direct
+An android mobile application involved with Location Based Service and Wi-Fi Direct.
 
 Users could upload his/her location to remote server and look for his/her friends' location. Google Map API is used to display locations.
 
