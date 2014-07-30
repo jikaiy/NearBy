@@ -8,7 +8,9 @@ Users could upload his/her location to remote server and look for his/her friend
 The highlight here is that users who have no cellular data plan or Wi-Fi access could still upload and look for locations in this app.
 
 We employed Wi-Fi Direct technique to implement above feature:
+
 1). User A without direct network access will search for a user B with network access nearby and request a Wi-Fi Direct connection to B. 
+
 2). Once Wi-Fi Direct connection between A and B built, A will send his/her location to B. B relays A location to remote server.
 
 The project code includes two components: application code running in android mobile phone and php api running in remote server to support connections between mobiles and database.
