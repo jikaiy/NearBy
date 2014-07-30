@@ -14,3 +14,6 @@ We employed Wi-Fi Direct technique to implement above feature:
 2). Once Wi-Fi Direct connection between A and B built, A will send his/her location to B. B relays A location to remote server.
 
 The project code includes two components: application code running in android mobile phone and php api running in remote server to support connections between mobiles and database.
+
+
+![alt tag](https://github.com/jikaiy/NearBy/blob/master/snapshot/initpintu_1.jpg)
